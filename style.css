@@ -1,0 +1,86 @@
+
+img{
+    height: 300px;
+    width: 400px;
+}
+#container{
+    font-family: 'EB Garamond', serif;
+}
+
+#as{
+    background-color: rgb(33, 151, 230);
+}
+body{
+    display: flex;
+    flex-direction:row ;
+}
+
+.container > div{
+    width: 300px;
+    height: 300px;
+}
+.bird{
+    grid-area: bird;
+}
+.text1{
+    grid-area: text1;
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.text2{
+    grid-area: text2;
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+}
+#header{
+    font-family: 'Fredoka One', cursive;
+}
+.footer{
+    grid-area: footer;
+    background-image: url("dog.jpeg");
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top:30px;
+}
+a{
+    text-decoration: aquamarine;
+}
+li{
+    display: inline;
+    padding: 30px
+}
+/*
+div{
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+}
+.container > siv{
+    margin:auto;
+    width: 300px;
+    height:300px;
+    background-color: aquamarine;
+}
+
+.bird{
+    float: left;
+    margin-left: 150px;
+}
+.text1{
+    float: right;
+    margin-right:200px;
+}
+.text2{
+    float: left;
+    margin-left: 200px;
+}
+*\
